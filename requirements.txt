@@ -1,0 +1,13 @@
+numpy
+tensorflow
+keras
+rioxarray
+rasterio
+segmentation-models
+rarfile
+pyunpack
+patool
+matplotlib
+pandas
+pathlib
+sklearn
