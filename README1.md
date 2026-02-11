@@ -8,7 +8,6 @@ It contains two parts:
 - **Part A-2…A-5 (Contextual adaptation):** adapt the same approach to a **new context** — **East Kalimantan (Borneo), Indonesia** — focusing on **2023 forest loss segmentation** with **Sentinel‑2 SR + Hansen GFC**.
 - **Part B (Poster + presentation):** a digital poster (template provided by the course) with a link to this GitHub repo.
 
-> 中文一句话：这个 repo 里 baseline 复现 + Kalimantan(2023) 本地化实验都能从 notebook 直接跑通；README 的数据、阈值、超参、结果表均与 notebook **已执行输出**对齐。
 
 ---
 
@@ -99,7 +98,7 @@ All steps below are implemented in the local notebook:
 
 ### 4.1 Task definition used in the notebook (IMPORTANT: aligns with outputs)
 - **AOI (bbox):** `(116.0, -1.8, 117.2, -0.6)`
-- **Year:** `2023` only (not multi-year)
+- **Year:** `2023` 
 - **Input:** Sentinel‑2 SR (harmonized) **2023 median composite**, 4 bands
 - **Label:** Hansen GFC v1.12 **lossyear == 2023** (binary), resampled to the Sentinel‑2 grid using **nearest neighbor**
 
