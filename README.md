@@ -212,20 +212,4 @@ Implemented in the local context notebook:
 
 ---
 
-## Part B — Poster & presentation
 
-Prepare a digital academic poster (template provided by the course) and include a link to this repository.
-Presentation guideline: ~30s paper + ~30s new context + ~1min results/interpretation, then Q&A.
-
----
-
-## Reproduce everything (checklist)
-
-### Baseline replication (Amazon)
-- [ ] Place Zenodo dataset under `baseline_replication/attention_unet/AMAZON/`
-- [ ] Run `python preprocess-4band-amazon-data.py`
-- [ ] Run `baseline_replication/reproduce_baseline.ipynb` end‑to‑end
-
-### Local context (Kalimantan 2023)
-- [ ] Put GeoTIFFs under `data_raw/` (see filenames above)
-- [ ] Run `local_context/contextual_adaptation_kalimantan_2023_en_updated_downloads.ipynb` end‑to‑end
